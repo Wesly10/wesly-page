@@ -1,0 +1,88 @@
+body{
+    background: url(R.jpg) no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+}
+
+.inicio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 12px;
+    padding: 10px 20px;
+    background: transparent;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0 0,0.5);
+}
+
+.inicio h2{
+    font-size: 30px;
+    color: #fffefe;
+}
+
+.input-field{
+    position: relative;
+}
+
+.input-field input[type="email"],
+.input-field input[type="password"]{
+    border-radius: 10px;
+    background: transparent;
+    margin: 15px;
+    border: 2px solid rgb(255, 255,255);
+    width: 280px;
+    height: 2px;
+    padding: 20px 40px 20px 20px;
+}
+
+.input-field i {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    right: 10px;
+    color: rgb(255, 255, 255);
+}
+
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+a.forgot{
+    text-decoration: none;
+    color: #fffffd;
+}
+
+a.forgot:hover{
+    text-decoration: underline;
+    color: #fffffd;
+}
+
+a.sign{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+a.sign:hover{
+    text-decoration: underline;
+    color: #fffffd;
+}
+
+.inicio .login{
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+}
+
+p{
+    color: #fffffd;
+}
